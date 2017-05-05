@@ -244,9 +244,9 @@
     <Folder Include="app\components\product_categories\" />
     <Folder Include="app\components\roles\" />
     <Folder Include="app\components\users\" />
-    <Folder Include="app\shared\directice\" />
     <Folder Include="app\shared\footer\" />
     <Folder Include="app\shared\navigation\" />
+    <Folder Include="app\shared\services\" />
     <Folder Include="Assets\admin\css\" />
     <Folder Include="Assets\admin\img\" />
     <Folder Include="Assets\admin\js\" />
