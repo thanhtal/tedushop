@@ -1,15 +1,14 @@
 ﻿(function (app) {
     app.controller('productCategoryAddController', productCategoryAddController);
 
-    productCategoryAddController.$inject = ['apiService','$scope','notificationService','$state'];
+    productCategoryAddController.$inject = ['apiService', '$scope', 'notificationService', '$state'];
 
-    function productCategoryAddController(apiService, $scope, notificationService,$state) {
+    function productCategoryAddController(apiService, $scope, notificationService, $state) {
         $scope.productCategory = {
             CreatedDate: new Date(),
             Status: true,
-            Name: "Danh mục 1"
         }
-       
+
         $scope.AddProductCategory = AddProductCategory;
 
         function AddProductCategory() {
